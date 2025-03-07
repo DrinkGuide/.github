@@ -60,7 +60,7 @@ Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 �
 - **Actuator**: Health Check
 - **Spring Security/OAuth2.0 Client & OAuth2.0 Google**: Spring Security로 소셜 로그인을 통해 간편 인증을 처리했고 JWT로 인가 처리
 - **Toss Payments 결제 API - test**: 토스 페이먼츠 결제 API 연동
-- **개발 및 클라우드 아키텍처**
+- **개발 및 클라우드 아키텍처**</br>
   <img width="689" alt="image" src="https://github.com/user-attachments/assets/8c86b837-9522-4926-91fd-6e17fef462c0" />
 
 
