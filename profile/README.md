@@ -5,7 +5,8 @@
 Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 이미지 인식을 통해 제품의 상세 정보와 영양 정보를 음성 피드백으로 제공하는 웹 서비스입니다.
 
 ## 🖥️ 시연 영상
-![GIFMaker_me](https://github.com/user-attachments/assets/9743237e-f2b3-4b50-a405-e699f885e1b2)
+<img src="https://github.com/user-attachments/assets/9743237e-f2b3-4b50-a405-e699f885e1b2" alt="GIFMaker_me" height="500">
+
 <p>GIF라 음성이 지원되지 않습니다. 해당 링크로 접속하시면 음성도 들으실 수 있습니다.  
 <a href="https://drive.google.com/file/d/1DBa2M4zI_sDo0h-2ZKqR_bXOh7tNMekf/view?usp=sharing" target="_blank">여기 클릭</a></p>
 
