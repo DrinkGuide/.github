@@ -1,4 +1,4 @@
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/d40a05ce-96ef-40f5-9390-b53e23cb6685" />
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/d40a05ce-96ef-40f5-9390-b53e23cb6685" />
 
 # 📢 Voice Label 서비스
 
