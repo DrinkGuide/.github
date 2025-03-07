@@ -1,26 +1,30 @@
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d40a05ce-96ef-40f5-9390-b53e23cb6685" />
+
 # 📢 Voice Label 서비스
 
 Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 이미지 인식을 통해 제품의 상세 정보와 영양 정보를 음성 피드백으로 제공하는 웹 서비스입니다.
+
+## 🖥️ 시연 영상
+![GIFMaker_me](https://github.com/user-attachments/assets/9743237e-f2b3-4b50-a405-e699f885e1b2)
 
 <br />
 
 ## 📎 기능
 
-- **Google 로그인 이용**: Google 로그인 API를 사용하여 사용자 인증 및 프로필 접근을 용이하게 합니다.
-- **제품 식별**: Teachable Machine 이미지 분류를 사용하여 제품을 인식하고, 화면을 두 번 터치하면 구매 기록으로 데이터를 전송합니다.
-- **음성 피드백**: `react-speech-recognition`을 사용하여 음성으로 피드백을 말하면 Speech to Text를 거쳐 서버에 저장됩니다.
-- **결제 통합**: `tosspayments`를 사용하여 결제 거래를 원활하게 처리합니다.
-- **기록 및 구독 관리**: 사용자 프로필을 통해 구매 기록과 구독을 관리합니다.
+- **Google 로그인 이용**: Google 로그인 API를 사용하여 사용자 인증 및 프로필 접근을 용이하게 함
+- **제품 식별**: Teachable Machine 이미지 분류를 사용하여 제품을 인식하고, 화면을 두 번 터치하면 구매 기록으로 데이터를 전송
+- **음성 피드백**: `react-speech-recognition`을 사용하여 음성으로 피드백을 말하면 Speech to Text를 거쳐 서버에 저장
+- **결제 통합**: `tosspayments 결제 api`를 사용하여 결제 처리
+- **기록 및 구독 관리**: 사용자 프로필을 통해 구매 기록과 구독을 관리
 <br/>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/85317998-cffd-4a0b-be23-87f61ea47c1e" width="180" height="300" />
-  <img src="https://github.com/user-attachments/assets/6ce9d8fb-86c2-41c8-92c9-8691b3706473" width="180" height="300" />
   <img src="https://github.com/user-attachments/assets/72c588d9-a10b-4427-83f9-f5cf7ca81fb0" width="180" height="300" />
+  <img src="https://github.com/user-attachments/assets/bf073cc9-8fc0-47f8-bf6d-e92b1661c301" width="180" height="300" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bf073cc9-8fc0-47f8-bf6d-e92b1661c301" width="180" height="300" />
   <img src="https://github.com/user-attachments/assets/09e90608-400a-4c75-80e0-d0d7a8af58c4" width="180" height="300" />
   <img src="https://github.com/user-attachments/assets/bc603520-9071-4124-97d7-e38bcd479d11" width="180" height="300" />
   <img src="https://github.com/user-attachments/assets/11fe2349-25df-4024-98d2-257de09cce45" width="180" height="300" />
