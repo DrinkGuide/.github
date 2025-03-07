@@ -6,6 +6,9 @@ Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 �
 
 ## 🖥️ 시연 영상
 ![GIFMaker_me](https://github.com/user-attachments/assets/9743237e-f2b3-4b50-a405-e699f885e1b2)
+<p>GIF라 음성이 지원되지 않습니다. 해당 링크로 접속하시면 음성도 들으실 수 있습니다.  
+<a href="https://drive.google.com/file/d/1DBa2M4zI_sDo0h-2ZKqR_bXOh7tNMekf/view?usp=sharing" target="_blank">여기 클릭</a></p>
+
 
 <br />
 
