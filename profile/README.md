@@ -1,4 +1,4 @@
-# 📢 Voice Label 서비스
+<img width="324" alt="image" src="https://github.com/user-attachments/assets/85317998-cffd-4a0b-be23-87f61ea47c1e" /># 📢 Voice Label 서비스
 
 Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 이미지 인식을 통해 제품의 상세 정보와 영양 정보를 음성 피드백으로 제공하는 웹 서비스입니다.
 
@@ -7,29 +7,26 @@ Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 �
 ## 📎 기능
 
 - **Google 로그인 이용**: Google 로그인 API를 사용하여 사용자 인증 및 프로필 접근을 용이하게 합니다.
+<img width="324" alt="image" src="https://github.com/user-attachments/assets/6ce9d8fb-86c2-41c8-92c9-8691b3706473" />
 
-![Alt text](image1.svg)
 - **제품 식별**: Teachable Machine 이미지 분류를 사용하여 제품을 인식하고, 화면을 두 번 터치하면 구매 기록으로 데이터를 전송합니다.
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/72c588d9-a10b-4427-83f9-f5cf7ca81fb0" />
 
-![Alt text](<image2.svg>)
-- **음성 피드백**: `react-speech-recognition`을 사용하여 음성 명령을 구현하고 제품 상세 정보 및 영양 정보를 제공합니다.
-
-![Alt text](image3.svg)
-
-- **카메라 호환성**: Chrome, Safari, Kakao 브라우저에서 카메라 기능이 정상 작동하는지 확인합니다.
+- **음성 피드백**: `react-speech-recognition`을 사용하여 음성으로 피드백을 말하면 Speech to Text를 거쳐 서버에 저장됩니다.
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/bf073cc9-8fc0-47f8-bf6d-e92b1661c301" />
 
 <br/>
 
 - **결제 통합**: `tosspayments`를 사용하여 결제 거래를 원활하게 처리합니다.
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/09e90608-400a-4c75-80e0-d0d7a8af58c4" />
 
-![Alt text](image6.svg)
 
 <br/>
 
 - **기록 및 구독 관리**: 사용자 프로필을 통해 구매 기록과 구독을 관리합니다.
+<img width="298" alt="image" src="https://github.com/user-attachments/assets/bc603520-9071-4124-97d7-e38bcd479d11" />
+<img width="293" alt="image" src="https://github.com/user-attachments/assets/11fe2349-25df-4024-98d2-257de09cce45" />
 
-![Alt text](image4.svg)
-![Alt text](image5.svg)
 
 
 ## 📜 페이지
@@ -45,19 +42,27 @@ Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 �
 ### 프론트엔드
 
 - **react-webcam**: 웹캠 기능을 처리합니다.
-- **Teachable Machine 이미지 분류**: 제품을 인식하는 AI를 제공합니다.
+- **Teachable Machine 이미지 분류**: Teachable Machine-Google에서 학습시킨 가중치 결과 파일을 프로젝트에 넣어놓고 웹캠으로 들어오는 이미지를 분류
 - **react-speech-recognition**: 음성 인식 기능을 제공합니다.
 - **Text to Speech**: 외부 라이브러리 없이 기본적으로 구현됩니다.
 - **상태 관리**: `recoil`을 사용하여 로그인 및 구독 상태를 관리합니다.
 
 ### 백엔드
 
-- **Spring JPA**: 데이터 관리를 위해 Spring Data JPA를 사용합니다.
-- **MySQL (RDS)**: 데이터베이스는 Amazon RDS를 활용한 MySQL을 사용합니다.
+- **Spring JPA**: 데이터 관리를 위해 Spring Data JPA를 사용
+- **MySQL (RDS)**: 데이터베이스는 Amazon RDS를 활용한 MySQL을 사용
 - **Swagger**: API 문서화.
-- **Actuator**: 건강 상태 모니터링(health check).
-- **Spring Security & OAuth2.0 Google**: 애플리케이션을 보호하고 인증을 관리합니다.
-- **Toss Payments 통합**: 결제 처리를 관리합니다.
+- **Actuator**: Health Check
+- **Spring Security/OAuth2.0 Client & OAuth2.0 Google**: Spring Security로 소셜 로그인을 통해 간편 인증을 처리했고 JWT로 인가 처리
+- **Toss Payments 결제 API - test**: 토스 페이먼츠 결제 API 연동
+
+
+## 팀 소개
+
+- **기획**: 김리사
+- **디자인**: 최성희
+- **프론트엔드**: 김수아, 노경인, 박진홍
+- **백엔드 + AI + 클라우드**: 이주승
 
 
 ## 📌 설치
@@ -85,11 +90,3 @@ npm start
 
 ## ☑️ 테스트
 모든 기능이 다양한 브라우저에서 예상대로 작동하는지 확인하세요, 특히 카메라 접근 및 음성 인식 기능을 확인합니다.
-
-
-## 팀 소개
-
-- **기획**: 김리사
-- **디자인**: 최성희
-- **프론트엔드**: 김수아, 노경인
-- **백엔드**: 이주승, 박진홍
