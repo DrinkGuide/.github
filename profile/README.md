@@ -14,7 +14,7 @@ Voice Label은 시각 장애인 사용자가 편의점 제품을 식별하고 �
 <br/>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/85317998-cffd-4a0b-be23-87f61ea47c1e" width="300" height="200" />
+  <img src="https://github.com/user-attachments/assets/85317998-cffd-4a0b-be23-87f61ea47c1e" width="200" height="300" />
   <img src="https://github.com/user-attachments/assets/6ce9d8fb-86c2-41c8-92c9-8691b3706473" width="300" height="200" />
   <img src="https://github.com/user-attachments/assets/72c588d9-a10b-4427-83f9-f5cf7ca81fb0" width="300" height="200" />
 </p>
